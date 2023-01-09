@@ -1,0 +1,150 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+   font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#container{
+  
+    width:72%;
+    height:92%;
+    background-color:#ffffffde;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:2px 2px 20px;
+    border-radius:20px;
+    display:flex;
+}
+
+#second{
+    margin-top:100px;
+}
+
+#tolabel{
+    font-size:20px;
+    margin-right:80px;
+}
+#subjectLabel{
+    font-size:20px;
+    margin-right:40px;
+}
+#mailbox{
+    width:370px;
+    background-color:rgb(255, 254, 254);
+    border-radius:10px;
+    height:32px;
+    box-shadow: 2px 6px 10px rgba(6, 6, 6, 0.426);
+    border-radius:30px;
+    align-items:center;
+    border:none;
+    outline:none;
+    text-align: center;
+    
+
+}
+
+ #SubjectBox{
+    width:370px;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    height:32px;
+    box-shadow: 2px 6px 10px rgba(7, 7, 8, 0.39);
+    border-radius:30px;
+    align-items:center;
+    border:none;
+    outline:none;
+    text-align: center;
+}
+
+#area{
+     margin-top:10px;
+     font-size: 17px;
+     font-family:sans-serif;
+}
+
+#fourth{
+    margin-left:390px;
+    width:120px;
+    height:37px;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    background: rgb(92, 92, 234);
+    box-shadow:10px 10px 10px rgba(66,57,238,0.3); 
+    cursor: pointer; 
+    color: white;
+    font-size:17px;
+    margin-bottom: 10px;                
+}
+.head{
+margin-left: 10px;
+
+
+}   
+.back a{
+text-decoration: none;
+color: black;
+}
+.back{
+font-weight:bolder;
+font-size:xx-large;
+outline: none;
+background-color:rgb(200, 181, 181);
+border: none;
+text-decoration: none;
+}
+
+
+#inp{
+    width:235px;
+    background-color:rgb(255, 255, 255);
+    border-radius:12px;
+    height:28px;
+    box-shadow: 2px 6px 10px rgba(66,57,238,0.3);
+    border-radius:30px;
+    align-items:center;
+    border:none;
+    outline:none;
+    text-align: center;
+    margin-left:10px;
+    font-size:30px;
+}
+
+.file-submit{
+      padding-left:-20px;
+      float: left;
+
+}
+.tools{
+    background-color: rgba(0, 191, 255, 0.516);
+    border: 20px;
+    border-color: black;
+    border-radius: 10px;
+}
+.toolIcon{
+ 
+    width: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.toolUndo{
+    width: 25px;
+    height: 24px;
+   padding-left: 5px;
+   
+}
+.between{
+    padding-bottom: 7px;
+}
+.CloseIcon{
+    width: 40px;
+    height: 40px;
+   background: transparent;
+  
+}
+
